@@ -1,33 +1,19 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/.github/logo.svg" alt="Heroicons">
-</p>
-
-<p align="center">
-  A set of 450+ free MIT-licensed high-quality SVG icons for you to use in your web projects. <br>Available as basic SVG icons and via first-party <a href="#react">React</a> and <a href="#vue">Vue</a> libraries.
+  A set of 450+ crypto currencies high-quality SVG icons for you to use in your web projects. <br>Available as basic SVG icons and via first-party <a href="#react">React</a> library.
 <p>
 
-<p align="center">
-  <a href="https://heroicons.com"><strong>Browse at Heroicons.com &rarr;</strong></a>
-</p>
-
-
-<p align="center">
-    <a href="https://github.com/tailwindlabs/heroicons/releases"><img src="https://img.shields.io/npm/v/heroicons" alt="Latest Release"></a>
-    <a href="https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/heroicons.svg" alt="License"></a>
-</p>
+## Special Thanks 
+Thank to [https://github.com/spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons) to provide all the icons! we just package it. 
+Thank to [heroicons.com](https://heroicons.com) to provide the amazing build script.
 
 
 ## Basic Usage
 
-The quickest way to use these icons is to simply copy the source for the icon you need from [heroicons.com](https://heroicons.com) and inline it directly into your HTML:
+The quickest way to use these icons is to simply copy the source for the icon you need from the repo and inline it directly into your HTML:
 
 ```html
-<svg class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-  />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+  <path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zm-.065-28C9.342 4.001 4 9.347 4 15.94c.001 6.592 5.347 11.936 11.94 11.935 6.592-.002 11.936-5.347 11.935-11.94A11.937 11.937 0 0015.935 4zm-4.847 5.23a.123.123 0 01.125-.12h4.973a6.98 6.98 0 013.027.628c.18.088.357.186.528.292l-3.237 1.853h-1.689a.123.123 0 00-.12.126v.932l-3.607 2.086V9.23zM9.749 19.708l-2.162-2.184 7.12-4.108v2.662a.123.123 0 00.125.12h1.017l-6.093 3.51h-.007zm10.662-2.03c-1.044.872-2.477 1.308-4.299 1.308h-1.297a.123.123 0 00-.123.123v2.688l-1.81 1.042-1.69.977-.107.06v-4.455l5.603-3.224a2.056 2.056 0 001.297-.513 1.74 1.74 0 00.318-.432l3.578-2.071c.06.328.09.66.089.994.004 1.463-.516 2.63-1.56 3.503zm-1.92-3.019c.024-.153.036-.309.037-.464a2.417 2.417 0 00-.563-1.674A1.823 1.823 0 0017.15 12l4.973-2.871 2.182 2.183-5.814 3.347z"/>
 </svg>
 ```
 
@@ -56,47 +42,9 @@ function MyComponent() {
 }
 ```
 
-The 24x24 outline icons can be imported from `@heroicons/react/outline`, and the 20x20 solid icons can be imported from `@heroicons/react/solid`.
+The 32x32 solid icons can be imported from `cryptoicons/react/solid`.
 
 Icons use an upper camel case naming convention and are always suffixed with the word `Icon`.
-
-[Browse the full list of icon names on UNPKG &rarr;](https://unpkg.com/browse/@heroicons/react/outline/)
-
-
-## Vue
-
-*Note that this library currently only supports Vue 3.*
-
-First, install `@heroicons/vue` from npm:
-
-```sh
-npm install @heroicons/vue
-```
-
-Now each icon can be imported individually as a Vue component:
-
-```vue
-<template>
-  <div>
-    <BeakerIcon class="h-5 w-5 text-blue-500"/>
-    <p>...</p>
-  </div>
-</template>
-
-<script>
-import { BeakerIcon } from '@heroicons/vue/solid'
-
-export default {
-  components: { BeakerIcon }
-}
-</script>
-```
-
-The 24x24 outline icons can be imported from `@heroicons/vue/outline`, and the 20x20 solid icons can be imported from `@heroicons/vue/solid`.
-
-Icons use an upper camel case naming convention and are always suffixed with the word `Icon`.
-
-[Browse the full list of icon names on UNPKG &rarr;](https://unpkg.com/browse/@heroicons/vue/outline/)
 
 ## License
 
