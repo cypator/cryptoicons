@@ -1,0 +1,21 @@
+{
+  "name": "cypator-cryptoicons",
+  "license": "MIT",
+  "version": "1.0.4",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/cypator/cryptoicons#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cypator/cryptoicons.git"
+  },
+  "files": [
+    "solid"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">= 16"
+  }
+}

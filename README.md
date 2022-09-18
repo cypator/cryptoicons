@@ -19,29 +19,6 @@ The quickest way to use these icons is to simply copy the source for the icon yo
 
 Both icon styles are preconfigured to be stylable by setting the `color` CSS property, either manually or using utility classes like `text-gray-500` in a framework like [Tailwind CSS](https://tailwindcss.com).
 
-## React
-
-First, install `@heroicons/react` from npm:
-
-```sh
-npm install @heroicons/react
-```
-
-Now each icon can be imported individually as a React component:
-
-```js
-import { BeakerIcon } from '@heroicons/react/solid'
-
-function MyComponent() {
-  return (
-    <div>
-      <BeakerIcon className="h-5 w-5 text-blue-500"/>
-      <p>...</p>
-    </div>
-  )
-}
-```
-
 The 32x32 solid icons can be imported from `cryptoicons/react/solid`.
 
 Icons use an upper camel case naming convention and are always suffixed with the word `Icon`.
